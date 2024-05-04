@@ -10,15 +10,13 @@
     
 </head>
 <body>
-
  <div id="wrapper">
+     
     <!-- Input prompt section ( Reseaon being up here is the API call seems can only work like this)-->
     <form action="">
         <input type="text" id="prompt" placeholder="Enter prompt">
-        <button
-         id="generate-button" class="submitButton ">  
-         <i class='bx bx-up-arrow-alt bx-md'></i>
-         
+        <button id="generate-button" class="submitButton ">  
+         <i class='bx bx-up-arrow-alt bx-md'></i>    
         </button> 
     </form>
 
@@ -33,22 +31,14 @@
             <div id="imageContainer" class="imageDispay">
 
                 <div class=" imageAPI" >
-
-                  <img src="https://images.unsplash.com/photo-1611602132416-da2045990f76?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" Seat Turtle" >
+                 <!-- Image first diplayed to user for aesthetic  -->
+                  <img src="https://images.unsplash.com/photo-1611602132416-da2045990f76?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" Blue house" >
                   <a href=" https://unsplash.com/photos/white-and-brown-wooden-house-near-green-trees-during-daytime-u-Hb93V6IWI" target=" _blank"> Blue House </a>
                 </div>
-
-                <!-- Ensure the path to your placeholder image is correct -->
-              
             </div>
-            
-            <!-- Textbox for user input -->
-            
         </section>
     </main>
     
-
-     
         <!-- Navigation Menu -->
         <div class="sideMenu">
 
@@ -63,14 +53,12 @@
               <div class="user">
                   <img src="User Image.jpeg" alt="Me" class="user-img">
                   <div> 
-                      <p class="bold">Admin</p>
-                      
+                      <p class="bold">Admin</p>    
                   </div>
               </div>
-
+            
             <!-- Pages -->
             <ul>
-                <!-- BIG NOT CHANGED THE DIRECTORIES -->
                 <li>
                     <a href="home.html" class="glow">
                         <i class='bx bxs-home-alt-2'></i>
@@ -78,7 +66,6 @@
                     </a>
                     <span class="tooltip">Home</span>    
                 </li>
-
                 <li>
                     <a href="/pages/about.html">
                         <i class='bx bxs-detail'></i>
@@ -86,7 +73,6 @@
                      </a>
                      <span class="tooltip">About Us</span>
                 </li>
-
                 <li>
                     <a href="/pages/terms.html">
                         <i class='bx bxs-book-open'></i>
@@ -94,7 +80,6 @@
                     </a>
                     <span class="tooltip">Terms of service</span>
                 </li>
-
                 <li>
                     <a href="../index.html">
                         <i class='bx bx-log-out'></i>
@@ -103,19 +88,16 @@
                     <span class="tooltip">Log out</span>
                 </li>
             </ul>
-        </div>
-        
+        </div>    
   </div>  
         <!-- Main Content Area -->
-       
-  
-    
+        
     <!-- Ensure the path to your main.js is correct and include type="module" for ES6 module support -->
     <script src="../js/script.js"></script>
     <!-- <script src="main.js" type="module"></script> -->
 
 </body>
-
+    
 <script>
     let btn = document.querySelector('#btn');
     let sideMenu = document.querySelector('.sideMenu');
@@ -123,7 +105,5 @@
     btn.onclick = function(){
         sideMenu.classList.toggle('active');
     };
-
  </script>
-
 </html>
