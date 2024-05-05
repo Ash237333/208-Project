@@ -173,10 +173,6 @@ body, button, input {
     display: none;
 }
 
-
- /* OLD SIDE MENU */
-
- 
 /* Content Area */
 #content {
     flex-grow: 1;
