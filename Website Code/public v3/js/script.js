@@ -1,5 +1,3 @@
-const apiKey = "0KQVHmGf295NtumVdVX2AESVuugIZJ82nRc8oi6OPG8"
-
 const elementForm = document.querySelector("form");
 const elementPrompt = document.getElementById("prompt");
 const generatedResults = document.querySelector(".imageDispay");
